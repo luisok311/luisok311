@@ -6,7 +6,7 @@
 <?php
 ob_start();
 error_reporting(0);
-define("API_KEY", 'YOUR_BOT_TOKEN');
+define("sb=lCcYZ7xz5N1ZQOEzVtqigifY; wd=398x637; c_user=61567217196940; datr=lCcYZwLrjGTbl59o9Lel_IPL; fr=0He5aTdEqBrb1sJ0M.AWW3oFcsN-EGFxYobhX-LFedxDs.BnGCeU..AAA.0.0.BnGCee.AWX0g7cANEA; xs=30%3A3yhXaiExnvR0lA%3A2%3A1729636255%3A-1%3A-1; locale=en_US; wl_cbv=v2%3Bclient_version%3A2654%3Btimestamp%3A1729636258; fbl_st=100730917%3BT%3A28827271; vpd=v1%3B623x391x3", '7642891232:AAFXlI3sn0XTiXJJ0lGiCezRbuu_bVexC38');
 function bot($method, $datas = []) {
     $url = "https://api.telegram.org/bot" . API_KEY . "/$method";
     $ch = curl_init();
