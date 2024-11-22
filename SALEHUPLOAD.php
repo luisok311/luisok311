@@ -1,7 +1,7 @@
 <?php
 error_reporting(0);
 
-$token = "7558994384:AAGp6lW_OWSfStLK6JWL9X31AFGjRsRdSGY"; #توكنك @Wolf_Satisfaction
+$token = "7642891232:AAFXlI3sn0XTiXJJ0lGiCezRbuu_bVexC38"; #توكنك @Wolf_Satisfaction
 $admin = 7030600218 ; #ايديك @Wolf_Satisfaction
 define('API_KEY', $token);
 function bot($method, $datas = [])
